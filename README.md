@@ -47,7 +47,9 @@ Run from a shell to read, edit, and execute code.
 
 The agent lives inside the editor or extension host.
 
+- [avante.nvim](https://github.com/yetone/avante.nvim) - Neovim plugin giving the editor a Cursor-style agentic loop with tools and diff review.
 - [Cline](https://github.com/cline/cline) - Coding-agent engine with file editing, terminal/browser tools, and human approval workflows.
+- [codecompanion.nvim](https://github.com/olimorris/codecompanion.nvim) - Neovim coding agent with tools, workflows, and adapter-based multi-provider support.
 - [Kilo Code](https://github.com/Kilo-Org/kilocode) - Coding-agent distribution with terminal and editor experiences; the current CLI is an OpenCode fork.
 - [Pochi](https://github.com/TabbyML/pochi) - Open-source coding agent integrated into VS Code.
 - [VS Code local agent](https://github.com/microsoft/vscode) - The open-source local editor agent inside VS Code — Copilot Chat development moved into the main repo — distinct from GitHub's hosted agent services.
@@ -56,14 +58,16 @@ The agent lives inside the editor or extension host.
 
 ## General-Purpose & SDK-First
 
-Engines you embed and drive from Python, TypeScript, or YAML rather than a terminal chat.
+Runnable general-purpose agents and embeddable engines — drive them from code, chat channels, or config.
 
 - [Agent Zero](https://github.com/agent0ai/agent-zero) - General-purpose runnable agent with computer tools, memory, and delegation.
+- [agenticSeek](https://github.com/Fosowl/agenticSeek) - Fully local general-purpose agent that browses, codes, and plans on your own hardware — a self-hosted Manus alternative. GPL-3.0.
 - [Deep Agents](https://github.com/langchain-ai/deepagents) - Ready-to-run harness with planning, filesystem tools, subagents, context management, and human approval hooks. Python, with a TypeScript sibling at [deepagentsjs](https://github.com/langchain-ai/deepagentsjs).
 - [Dexto](https://github.com/truffle-ai/dexto) - Configuration-driven agent harness — define agents in YAML, swap models and tools without touching code — shipping with a production-ready coding agent over CLI and web UI. Source-available under Elastic-2.0.
 - [Docker Agent](https://github.com/docker/docker-agent) - Declarative agent runtime with YAML configuration, tools, and multi-agent workflows. Formerly cagent.
 - [nanobot](https://github.com/HKUDS/nanobot) - Lightweight Python personal-agent implementation with its own tool loop, memory, and integrations.
 - [Open Interpreter (classic Python)](https://github.com/endolith/open-interpreter) - Community continuation of the original local code-execution agent for Python, shell, and other languages. A distinct implementation from the Rust rewrite; AGPL-3.0.
+- [OpenClaw](https://github.com/openclaw/openclaw) - Self-hosted personal-agent harness and gateway: runs the model/tool loop behind WhatsApp, Telegram, Discord, Slack, and other channels, with sessions, memory, and skills.
 - [OpenHands Software Agent SDK](https://github.com/OpenHands/software-agent-sdk) - The execution engine behind OpenHands: agent conversations, tools, local/remote workspaces, and server APIs.
 - [OpenManus](https://github.com/FoundationAgents/OpenManus) - General-purpose agent implementation combining planning, tools, and browser-oriented tasks.
 
@@ -76,12 +80,18 @@ Small, legible implementations built for experiments and evaluation.
 
 ## Browser, Computer-Use & Ops
 
-Harnesses whose loop acts on web pages, desktops, or infrastructure rather than a repo.
+Harnesses whose loop acts on web pages, desktops, phones, or infrastructure rather than a repo.
 
 - [Agent S](https://github.com/simular-ai/Agent-S) - Computer-use agent that plans and acts through graphical interfaces.
 - [Agent TARS / UI-TARS Desktop](https://github.com/bytedance/UI-TARS-desktop) - A family of agent implementations for browser and desktop/computer interaction, in one monorepo.
 - [Browser Use](https://github.com/browser-use/browser-use) - Browser-specialized agent loop for choosing and executing actions across web tasks.
+- [HolmesGPT](https://github.com/HolmesGPT/holmesgpt) - CNCF sandbox SRE agent: investigates alerts and debugs clusters with pluggable toolsets.
+- [kubectl-ai](https://github.com/GoogleCloudPlatform/kubectl-ai) - Google's Kubernetes agent for the terminal: natural-language requests translated into kubectl and other tool calls.
+- [mobilerun](https://github.com/droidrun/mobilerun) - LLM-agnostic mobile agent that automates devices from natural-language commands. Formerly droidrun.
+- [nanobrowser](https://github.com/nanobrowser/nanobrowser) - Chrome extension running a multi-agent loop (planner/navigator/validator) for web automation on your own LLM key.
+- [Skyvern](https://github.com/Skyvern-AI/skyvern) - Browser-automation agent that drives workflows on unfamiliar sites via vision and DOM reasoning. AGPL-3.0.
 - [Stakpak](https://github.com/stakpak/agent) - Infrastructure- and DevOps-focused agent for operational tasks.
+- [UFO](https://github.com/microsoft/UFO) - Microsoft Research's Windows computer-use agent that plans and acts across desktop applications via the GUI.
 
 ## Resting
 
@@ -98,7 +108,10 @@ A watchlist of projects without a default-branch commit in the last few months (
 
 Names you'll look for here, and why they're absent.
 
+- [Amazon Q Developer CLI](https://github.com/aws/amazon-q-developer-cli) - No longer maintained; superseded by Kiro CLI, which is closed source.
 - [Claude Code](https://github.com/anthropics/claude-code) - Proprietary; the public repo carries an all-rights-reserved notice and Anthropic commercial terms.
 - [Continue](https://github.com/continuedev/continue) - Repository is read-only and unmaintained.
+- [GitHub Copilot CLI](https://github.com/github/copilot-cli) - Proprietary license permitting install and redistribution only; the open-source editor agent lives separately in microsoft/vscode.
 - [Roo Code](https://github.com/RooCodeInc/Roo-Code) - Extension shut down; users are pointed to Zoo Code and Cline.
 - [SWE-agent](https://github.com/SWE-agent/SWE-agent) - Superseded; the maintainers recommend mini-SWE-agent.
+- [Void](https://github.com/voideditor/void) - Open-source Cursor-style editor with an agent mode; repository archived June 2026.
