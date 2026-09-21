@@ -16,7 +16,6 @@ Frameworks, gateways, sandboxes, eval runners, and thin wrappers around another 
 
 Run from a shell to read, edit, and execute code.
 
-- [Aider](https://github.com/Aider-AI/aider) - Git-aware terminal pair-programming agent with code editing and test-driven iteration.
 - [Autohand Code CLI](https://github.com/autohandai/code-cli) - Terminal-native coding agent for planning, reflecting, and remembering, with an interactive REPL and editor integrations. Source-available under Apache-2.0 plus a commercial rider for organizations over $5M ARR.
 - [Codewhale](https://github.com/Hmbown/Codewhale) - Rust coding-agent runtime with local or hosted model support, tools, permissions, and multiple client surfaces. Formerly DeepSeek-TUI; now provider-neutral.
 - [Codex](https://github.com/openai/codex) - OpenAI's local coding-agent engine and CLI, with source for the model/tool execution loop.
@@ -34,16 +33,13 @@ Run from a shell to read, edit, and execute code.
 - [Letta Code](https://github.com/letta-ai/letta-code) - Stateful agent harness centered on persistent identity, memory, skills, and context management.
 - [Mastra Code](https://github.com/mastra-ai/mastra) - Ready-to-run terminal harness with modes, persisted threads, subagents, and observational memory. Apache-2.0 except the `ee/` directories.
 - [Mistral Vibe](https://github.com/mistralai/mistral-vibe) - Mistral's terminal coding agent, designed around a relatively small CLI workflow.
-- [Neovate Code](https://github.com/neovateai/neovate-code) - Model-flexible coding agent with interactive and headless execution.
 - [Octofriend](https://github.com/synthetic-lab/octofriend) - A small terminal-first coding agent, also called Octo.
 - [Oh My Pi](https://github.com/can1357/oh-my-pi) - Substantial Pi fork (a.k.a. OMP) with additional coding tools, language-server integration, and subagents.
 - [OpenCode](https://github.com/anomalyco/opencode) - Model-flexible coding harness with terminal and other client surfaces. Formerly sst/opencode; not the older opencode-ai project that became Crush.
 - [Open Interpreter](https://github.com/openinterpreter/openinterpreter) - The Rust successor to the original Python project: a Codex-derived coding harness with model-specific harness emulation and ACP support.
 - [Pi](https://github.com/earendil-works/pi) - Modular coding harness: agent runtime, model integration, and terminal interface. Formerly badlogic/pi-mono.
-- [Plandex](https://github.com/plandex-ai/plandex) - Terminal agent for large, multi-step code changes with planning and cumulative change review.
 - [Prime Agent](https://github.com/PrimeIntellect-ai/prime-agent) - Long-horizon agent built on Pi, with a persistent Python REPL, recursive subagents, and persistent memory/skills.
 - [Qwen Code](https://github.com/QwenLM/qwen-code) - Qwen-oriented coding harness with terminal and other integration surfaces.
-- [RA.Aid](https://github.com/ai-christianson/RA.Aid) - Software-development agent combining research, planning, and implementation workflows.
 - [VT Code](https://github.com/vinhnx/VTCode) - Rust terminal coding harness with configurable model and tool integrations.
 
 ## Coding — Editor-Integrated
@@ -74,10 +70,8 @@ Engines you embed and drive from Python, TypeScript, or YAML rather than a termi
 
 Small, legible implementations built for experiments and evaluation.
 
-- [Mini Agent](https://github.com/MiniMax-AI/Mini-Agent) - MiniMax's reference agent with a complete execution loop, filesystem/shell tools, memory, context summarization, skills, and MCP.
 - [mini-SWE-agent](https://github.com/SWE-agent/mini-swe-agent) - Minimal shell-centric software-engineering agent; a readable baseline harness that SWE-agent's maintainers now develop instead.
 - [Terminus 2](https://github.com/harbor-framework/harbor) - Terminal-oriented agent implementation used for controlled agent evaluation, inside the Harbor framework.
-- [Trae Agent](https://github.com/bytedance/trae-agent) - ByteDance's software-engineering agent with modular components and trajectory logging for experimentation.
 
 ## Browser, Computer-Use & Ops
 
@@ -87,6 +81,17 @@ Harnesses whose loop acts on web pages, desktops, or infrastructure rather than 
 - [Agent TARS / UI-TARS Desktop](https://github.com/bytedance/UI-TARS-desktop) - A family of agent implementations for browser and desktop/computer interaction, in one monorepo.
 - [Browser Use](https://github.com/browser-use/browser-use) - Browser-specialized agent loop for choosing and executing actions across web tasks.
 - [Stakpak](https://github.com/stakpak/agent) - Infrastructure- and DevOps-focused agent for operational tasks.
+
+## Resting
+
+A watchlist of projects without a default-branch commit in the last few months (checked 2026-09-21). They stay listed until they're active again, then move back up.
+
+- [Aider](https://github.com/Aider-AI/aider) - Git-aware terminal pair-programming agent with code editing and test-driven iteration. _(last commit 2026-05)_
+- [Mini Agent](https://github.com/MiniMax-AI/Mini-Agent) - MiniMax's reference agent with a complete execution loop, filesystem/shell tools, memory, context summarization, skills, and MCP. _(last commit 2026-02)_
+- [Neovate Code](https://github.com/neovateai/neovate-code) - Model-flexible coding agent with interactive and headless execution. _(last commit 2026-03)_
+- [Plandex](https://github.com/plandex-ai/plandex) - Terminal agent for large, multi-step code changes with planning and cumulative change review. _(last commit 2025-10)_
+- [RA.Aid](https://github.com/ai-christianson/RA.Aid) - Software-development agent combining research, planning, and implementation workflows. _(last commit 2025-06)_
+- [Trae Agent](https://github.com/bytedance/trae-agent) - ByteDance's software-engineering agent with modular components and trajectory logging for experimentation. _(last commit 2026-02)_
 
 ## Not Included
 
