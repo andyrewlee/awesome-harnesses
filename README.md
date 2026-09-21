@@ -6,11 +6,11 @@ Frameworks, gateways, sandboxes, eval runners, and thin wrappers around another 
 
 ## How to choose
 
-- **Write code from a terminal.** [Coding — Terminal & CLI](#coding--terminal--cli) — the largest group.
-- **Stay in your editor.** [Coding — Editor-Integrated](#coding--editor-integrated) — the agent ships inside VS Code, Zed, or an extension host.
-- **Embed the loop in your own software.** [General-Purpose & SDK-First](#general-purpose--sdk-first) — engines you drive from Python, TypeScript, or YAML rather than a chat box.
-- **Read or benchmark a minimal loop.** [Research & Reference](#research--reference) — small, legible implementations built for experiments.
-- **Act on a browser, desktop, or infrastructure.** [Browser, Computer-Use & Ops](#browser-computer-use--ops).
+- **Write code from a terminal.** [Coding — Terminal & CLI](https://github.com/andyrewlee/awesome-harnesses#coding--terminal--cli) - The largest group.
+- **Stay in your editor.** [Coding — Editor-Integrated](https://github.com/andyrewlee/awesome-harnesses#coding--editor-integrated) - The agent ships inside VS Code, Zed, or an extension host.
+- **Embed the loop in your own software.** [General-Purpose & SDK-First](https://github.com/andyrewlee/awesome-harnesses#general-purpose--sdk-first) - Engines you drive from Python, TypeScript, or YAML rather than a chat box.
+- **Read or benchmark a minimal loop.** [Research & Reference](https://github.com/andyrewlee/awesome-harnesses#research--reference) - Small, legible implementations built for experiments.
+- **Act on a browser, desktop, or infrastructure.** [Browser, Computer-Use & Ops](https://github.com/andyrewlee/awesome-harnesses#browser-computer-use--ops) - Everything that isn't a repo.
 
 ## Coding — Terminal & CLI
 
