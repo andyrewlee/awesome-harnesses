@@ -41,6 +41,7 @@ Run from a shell to read, edit, and execute code.
 - [Prime Agent](https://github.com/PrimeIntellect-ai/prime-agent) - Long-horizon agent built on Pi, with a persistent Python REPL, recursive subagents, and persistent memory/skills.
 - [Qwen Code](https://github.com/QwenLM/qwen-code) - Qwen-oriented coding harness with terminal and other integration surfaces.
 - [VT Code](https://github.com/vinhnx/VTCode) - Rust terminal coding harness with configurable model and tool integrations.
+- [ZCode](https://github.com/zai-org/ZCode) - Z.ai's coding agent harness: a workbench spanning desktop, browser, and terminal-agent components, driven by GLM models. Open-sourced September 2026.
 
 ## Coding — Editor-Integrated
 
