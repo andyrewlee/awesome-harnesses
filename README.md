@@ -22,8 +22,10 @@ Run from a shell to read, edit, and execute code.
 - [Codex](https://github.com/openai/codex) - OpenAI's local coding-agent engine and CLI, with source for the model/tool execution loop.
 - [Crush](https://github.com/charmbracelet/crush) - Charm's terminal coding agent: LSP-enhanced, multi-provider, with MCP support and a Bash-style config interpreter. Source-available under FSL-1.1-MIT.
 - [Deep Code CLI](https://github.com/lessweb/deepcode-cli) - DeepSeek-focused terminal coding agent with skills and MCP integration. Community project, not an official DeepSeek harness.
+- [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) - DeepSeek's official agent harness (`dsh`) on an everything-is-a-plugin architecture over vendored Cordis, with CLI, web UI, Python SDK, and Claude Code/Codex hook bridges.
 - [ForgeCode](https://github.com/tailcallhq/forgecode) - Multi-model terminal coding agent with configurable agent workflows. Formerly antinomyhq/forge.
 - [Freebuff](https://github.com/CodebuffAI/freebuff) - Coding harness using specialized agents for context gathering, implementation, and review, built on the Codebuff agent runtime and SDK.
+- [fx](https://github.com/vercel-labs/fx) - Vercel Labs' coding-agent harness in Zig: a model-agnostic ~8 MiB binary with a Unix-shell-style CLI, an ACP surface, and WebAssembly builds for embedding in JS hosts. Upstream marks it experimental.
 - [Gemini CLI](https://github.com/google-gemini/gemini-cli) - Google's terminal agent with coding, shell, and external-tool workflows.
 - [gptme](https://github.com/gptme/gptme) - Terminal agent with code execution, shell tools, and extensibility for broader agent workflows.
 - [Grok Build](https://github.com/xai-org/grok-build) - Rust coding-agent runtime with terminal, headless, and Agent Client Protocol interfaces. Source is periodically synced from an internal monorepo; upstream doesn't take external contributions.
