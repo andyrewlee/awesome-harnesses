@@ -70,6 +70,7 @@ Runnable general-purpose agents and embeddable engines — drive them from code,
 - [OpenClaw](https://github.com/openclaw/openclaw) - Self-hosted personal-agent harness and gateway: runs the model/tool loop behind WhatsApp, Telegram, Discord, Slack, and other channels, with sessions, memory, and skills.
 - [OpenHands Software Agent SDK](https://github.com/OpenHands/software-agent-sdk) - The execution engine behind OpenHands: agent conversations, tools, local/remote workspaces, and server APIs.
 - [OpenManus](https://github.com/FoundationAgents/OpenManus) - General-purpose agent implementation combining planning, tools, and browser-oriented tasks.
+- [Unreal Agent](https://github.com/unreallabsai/unreal-agent) - Async-first agent harness in Go: embeddable library plus executables, where tool calls become serializable, versioned operations that can proxy into remote sandboxes, with session forking and input idempotency. Launched September 2026.
 
 ## Research & Reference
 
