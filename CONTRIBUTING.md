@@ -14,7 +14,7 @@ In scope:
 Out of scope:
 - Generic framework primitives, model gateways, sandboxes, evaluation runners, skills collections
 - Wrappers that merely invoke another harness
-- UIs, dashboards, and orchestrators that drive harnesses rather than implement one (see [awesome-agent-orchestrators](https://github.com/andyrewlee/awesome-agent-orchestrators) for those)
+- UIs, dashboards, and orchestrators that drive harnesses rather than implement one
 
 ## Entry format
 

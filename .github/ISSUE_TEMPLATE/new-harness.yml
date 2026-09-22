@@ -1,0 +1,38 @@
+name: New harness suggestion
+description: Suggest a harness for the list
+title: "Add: "
+labels: []
+body:
+  - type: input
+    id: repo
+    attributes:
+      label: Repository
+      description: GitHub URL for the harness
+      placeholder: https://github.com/owner/repo
+    validations:
+      required: true
+  - type: input
+    id: license
+    attributes:
+      label: License
+      description: SPDX id if known — flag non-OSI or source-available terms
+      placeholder: MIT, Apache-2.0, FSL-1.1-MIT...
+  - type: textarea
+    id: pitch
+    attributes:
+      label: What makes it a harness?
+      description: One or two sentences on the runnable loop, tools, and defaults. See CONTRIBUTING.md for scope.
+      placeholder: Runs the model/tool loop via...
+    validations:
+      required: true
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Checklist
+      options:
+        - label: Actively maintained — a default-branch commit in the last few months
+          required: true
+        - label: Open source or source available
+          required: true
+        - label: Not a framework, gateway, sandbox, eval runner, or wrapper around another harness
+          required: true

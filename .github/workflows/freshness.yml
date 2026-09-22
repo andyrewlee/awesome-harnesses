@@ -1,0 +1,31 @@
+name: Freshness
+
+on:
+  schedule:
+    - cron: '0 9 * * 1'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check linked repos
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: bash .github/scripts/check-freshness.sh
+      - name: File findings
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          test -s freshness-report.md || { echo "Nothing to report."; exit 0; }
+          issue=$(gh issue list --state open --search 'in:title "Harness freshness"' --json number --jq '.[0].number // empty')
+          if [ -n "$issue" ]; then
+            gh issue comment "$issue" --body-file freshness-report.md
+          else
+            gh issue create --title "Harness freshness" --label maintenance --body-file freshness-report.md
+          fi

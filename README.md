@@ -47,7 +47,7 @@ Run from a shell to read, edit, and execute code.
 
 The agent lives inside the editor or extension host.
 
-- [avante.nvim](https://github.com/yetone/avante.nvim) - Neovim plugin giving the editor a Cursor-style agentic loop with tools and diff review.
+- [avante.nvim](https://github.com/avante-corp/avante.nvim) - Neovim plugin giving the editor a Cursor-style agentic loop with tools and diff review.
 - [Cline](https://github.com/cline/cline) - Coding-agent engine with file editing, terminal/browser tools, and human approval workflows.
 - [codecompanion.nvim](https://github.com/olimorris/codecompanion.nvim) - Neovim coding agent with tools, workflows, and adapter-based multi-provider support.
 - [Kilo Code](https://github.com/Kilo-Org/kilocode) - Coding-agent distribution with terminal and editor experiences; the current CLI is an OpenCode fork.
