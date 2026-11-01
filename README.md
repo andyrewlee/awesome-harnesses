@@ -85,6 +85,7 @@ Harnesses whose loop acts on web pages, desktops, phones, or infrastructure rath
 
 - [Agent S](https://github.com/simular-ai/Agent-S) - Computer-use agent that plans and acts through graphical interfaces.
 - [Agent TARS / UI-TARS Desktop](https://github.com/bytedance/UI-TARS-desktop) - A family of agent implementations for browser and desktop/computer interaction, in one monorepo.
+- [agent-qa](https://github.com/vostride/agent-qa) - QA agent with its own model/action/verification loop for web, Android and iOS, persistent memidex memory, and evidence-gated self-improvement; early v0.2, source available under FSL-1.1-ALv2.
 - [Browser Use](https://github.com/browser-use/browser-use) - Browser-specialized agent loop for choosing and executing actions across web tasks.
 - [HolmesGPT](https://github.com/HolmesGPT/holmesgpt) - CNCF sandbox SRE agent: investigates alerts and debugs clusters with pluggable toolsets.
 - [kubectl-ai](https://github.com/GoogleCloudPlatform/kubectl-ai) - Google's Kubernetes agent for the terminal: natural-language requests translated into kubectl and other tool calls.
